@@ -1,0 +1,14 @@
+{{ define "main" }}
+<div class="bg-white">
+	{{ partial "header" . }}
+	<div class="">
+		<div class="ph4">
+			<div class="lh-copy measure-wide center f4 serif pb5">
+				{{ .Content }}
+			</div>
+		</div>
+		{{ partial "what-we-do" . }}
+	</div>
+	{{ partial "footer" . }}
+</div>
+{{ end }}
