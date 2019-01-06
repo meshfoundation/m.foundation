@@ -1,0 +1,2 @@
+# Redirect default Netlify subdomain to primary domain
+https://meshfoundation.netlify.com/* https://m.foundation/:splat 301!
